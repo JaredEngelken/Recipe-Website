@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jared's Recipes</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="dinner-style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    <header class="container">
+      <div class="row">
+        <h1 class="col-sm-4">Jared's Recipes</h1>
+        <nav class="col-sm-6">
+          <!--<a href="education.html">Education</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>-->
+          <!-- Search Bar -->
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </nav>
+        <nav class="col-sm-2">
+          <!-- Home Button -->
+          <form action="english.html">
+            <button class="btn"><i class="fa fa-home"></i>Home</button>
+          </form>
+          <!-- Dropdown Button -->
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i>Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="english.html">Home</a>
+                <a href="home.html">Language Selection</a>
+                <a href="english-calendar.html">Calendar</a>
+                <a href="english-list.html">Shopping List</a>
+                <a href="english-recipes.html">Recipes</a>
+                <a href="contact.html">Contact</a>
+                <a href="breakfast.html">Breakfast</a>
+                <a href="desserts.html">Desserts</a>
+                <a href="dinner.html">Dinner</a>
+                <a href="drinks.html">Drinks</a>
+                <a href="lunch.html">Lunch</a>
+                <a href="snacks.html">Snacks</a>
+              </div>
+          </div>
+          <script>
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+          </script>
+        </nav>
+      </div>
+    </header>
+
+<!--Jumbotron Banner------------------------------------------------------------------------------------------------------------------->            
+    <section class="jumbotron-sides">
+        <div class="container">
+            <h2>Dinner Sides</h2>
+        </div>
+    </section>
+
+<!--Menu Selection--------------------------------------------------------------------------------------------------------------------->
+    <section class="container">
+      <div class="row-item-recipe">
+        <div class="row justify-content-center">
+          <div class="recipe-titles">
+            <h2>Marshmallow Yams</h2>
+          </div>
+        </div>
+        <div class="row">            
+          <div class="col-sm-6">
+            <img border="10" src="https://github.com/JaredEngelken/Recipe-Website-Database/blob/master/images/Sweet-Potato-Casserole-LEAD-1.jpg?raw=true">
+          </div>        
+          <div class="col-sm-6">
+            <h3>Amount:</h3>
+            <ul>
+              <li>8 Servings</li>
+            </ul>
+            <h3>Time:</h3>
+            <ul>
+              <li>30-40 Minutes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+              <h3>Ingredients:</h3>
+              <ul>
+                <li>3 - 15 oz. cans of sweet potatoes or fresh sweet potatoes</li>
+                <li>1/4 cup - margine or butter</li>
+                <li>1/4 cup - orange juice</li>
+                <li>1/4 cup - brown sugar</li>
+                <li>1/2 tsp - salt</li>
+                <li>1 tsp - ground cinnamon</li>
+                <li>1/4 tsp - ground nutmeg</li>
+                <li>1 tsp - vanilla</li>
+                <li>3 cups or 25-30 - marshmallows</li>
+                <li>cooking spray or oil</li>
+              </ul>
+          </div>
+          <div class="col-sm-6">
+            <h3>Instructions:</h3>
+            <h4>Prepare the Sweet Potatoes:</h4>
+            <ul>
+                <li>Canned Sweet Potatoes: Drain the sweet potatoes.</li>
+                <li>Fresh Sweet Potatoes: Chop the potatoes into bite-sized chunks. Put all the potato chunks in a large pot and cover them with water. Heat the potatoes in the water on medium heat until they are soft but not mushy.</li>
+            </ul>
+            <h4>Bring it Together</h4>
+            <ol>
+              <li>Pre-heat the oven to 350°F.</li>
+              <li>Pour the potatoes in a large baking dish, coated with cooking spray or oil.</li>
+              <li>In a separate bowl, thoroughly mix the margarine or butter, orange juice, vanilla, brown sugar, salt, and other spices.</li>
+              <li>Pour the mixture over the potatoes.</li>
+              <li>Top with marshmallows.</li>
+              <li>Bake for 18-20 minutes or until the marshmallows are slightly browned and serve!</li>
+            </ul>
+            <h4>Optional:</h4>
+            <ul>
+              <li>Finely chop up 1 cup of walnuts or pecans and spread over the potatoes before adding the marshmallows.</li>
+              <li>Mash the sweet potatoes and add 1/2 cup of flour to thicken the consistency.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr/>
+
+      <div class="row-item-recipe">
+        <div class="row justify-content-center">
+          <div class="recipe-titles">
+            <h2>Mashed Potatoes</h2>
+          </div>
+        </div>
+        <div class="row">            
+          <div class="col-sm-6">
+            <img border="10" src="https://github.com/JaredEngelken/Recipe-Website-Database/blob/master/images/mashed%20potatoes.jpg?raw=true">
+          </div>        
+          <div class="col-sm-6">
+            <h3>Amount:</h3>
+            <ul>
+              <li>6 Servings</li>
+            </ul>
+            <h3>Time:</h3>
+            <ul>
+              <li>30 Minutes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+              <h3>Ingredients:</h3>
+              <ul>
+                <li>1 pinch - salt</li>
+                <li>2 lbs - potatoes</li>
+                <li>1/2 cup - milk</li>
+                <li>1 pinch - black pepper</li>
+                <li>3 tbs - butter or margarine</li>
+              </ul>
+          </div>
+          <div class="col-sm-6">
+            <h3>Instructions:</h3>
+            <ol>
+              <li>Peel the potatoes.</li>
+              <li>Boil the potatoes in a pot of salted water.</li>
+              <li>Cook them covered for about 20 minutes until they are fork-tender.</li>
+              <li>Drain the potatoes and place them in a bowl.</li>
+              <li>Heat the butter or margarine and milk in a large saucepan until hot.</li>
+              <li>Pour the mix over the potatoes and mash them with a potato masher until they're smooth.</li>
+              <li>Season to taste and serve!</li>
+            </ul>
+            <h4>Optional:</h4>
+            <ul>
+              <li>Mix in chopped parsely and chives.</li>
+              <li>Leave the skins on the potatoes.</li>
+              <li>Add more butter or a bit of cream for a richer flavor.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <hr/>
+
+      <div class="row-item-recipe">
+        <div class="row justify-content-center">
+          <div class="recipe-titles">
+            <h2>Gravy</h2>
+          </div>
+        </div>
+        <div class="row">            
+          <div class="col-sm-6">
+            <img border="10" src="https://github.com/JaredEngelken/Recipe-Website-Database/blob/master/images/gravy.jpg?raw=true">
+          </div>        
+          <div class="col-sm-6">
+            <h3>Amount:</h3>
+            <ul>
+              <li>8 Servings</li>
+            </ul>
+            <h3>Time:</h3>
+            <ul>
+              <li>10 Minutes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <h3>Ingredients:</h3>
+            <ul>
+            <li>2 tbs - butter or bacon fat</li>
+            <li>1/4 cup - flour</li>
+            <li>2 cups - chicken, beef, turkey, vegetable broth, or pan drippings: <a href="dinner-poultry.html">Thanksgiving Turkey</a></li>
+            </ul>
+          </div>
+          <div class="col-sm-6">
+            <h3>Instructions:</h3>
+            <h4>Purview:</h4>
+            <p>Traditional gravy starts with a roux, which is a 1:2 mixture of fat to all-purpose flour. The fat used in gravy making is usually butter, although other fats like oils, margarine, and even bacon fat can also be used. The fat is melted and combined over heat and cooked briefly. Next, a liquid is slowly added and brought to a simmer. This liquid can be pan drippings from a roast, canned broth or stock, or even milk. The roux will cause the liquid to thicken, creating gravy.</p>
+            <ol>
+              <li>In a medium-size saucepan, melt butter over medium high heat.</li>
+              <li>Whisk in flour until well combined and no white specks remain. Let cook 2 minutes or until the roux thickens.</li>
+              <li>Slowly pour in broth and whisk well.</li>
+              <li>Bring to a simmer and heat until thickened to desired consistency, about 2 minutes, whisking constantly.</li>
+            </ul>
+            <h4>Notes:</h4>
+            <ul>
+              <li>You can use any kind of fat you'd like to when making a gravy in the same amount. Coconut oil, vegetable oil, olive oil, margarine, or bacon fat are all commonly used in addition to butter.</li>
+              <li>For a gluten-free gravy, or for sweet gravy like chocolate gravy, use 2 tablespoons of cornstarch in place of the all-purpose flour.</li>
+              <li>Any kind of broth, stock, or other liquid can be used in the same ratio to make gravy. Use vegetable broth for a vegetarian gravy.</li>
+              <li>When using pan drippings from roasting a turkey, chicken, or beef roast, be strain the drippings through a fine mesh strainer to remove any gristle or fat.</li>
+              <li>Milk can be used to make creamy gravies like sausage gravy or chocolate gravy. You can also add milk to any meat based gravy for a creamy variation. Simply replace or or part of the liquid called for in the gravy recipe with milk.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  
+<!--FOOTER----------------------------------------------------------------------------------------------------------------------------->
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2019 Jared Engelken
+      </p>
+      <div class="col-sm-2">
+        <a href="https://medium.com/">Medium</a>
+      </div>
+      <div class="col-sm-2">
+        <a href="https://github.com/">GitHub</a>
+      </div>
+      <div class="col-sm-2">
+        <a href="https://www.linkedin.com/">Linkdin</a>
+      </div>
+      <div class="col-sm-2">
+        <a href="https://tunein.com/podcasts/">Podcasts</a>
+      </div>
+    </div>
+  </footer>
+</html>
