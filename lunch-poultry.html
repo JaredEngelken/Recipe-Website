@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Jared's Recipes</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
+    <link href="lunch-style.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  
+  <body>
+    <header class="container">
+      <div class="row">
+        <h1 class="col-sm-4">Jared's Recipes</h1>
+        <nav class="col-sm-6">
+          <!--<a href="education.html">Education</a>
+          <a href="experience.html">Experience</a>
+          <a href="contact.html">Contact</a>-->
+          <!-- Search Bar -->
+          <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+        </nav>
+        <nav class="col-sm-2">
+          <!-- Home Button -->
+          <form action="english.html">
+            <button class="btn"><i class="fa fa-home"></i>Home</button>
+          </form>
+          <!-- Dropdown Button -->
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><i class="fa fa-bars"></i>Menu</button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="english.html">Home</a>
+                <a href="home.html">Language Selection</a>
+                <a href="english-calendar.html">Calendar</a>
+                <a href="english-list.html">Shopping List</a>
+                <a href="english-recipes.html">Recipes</a>
+                <a href="contact.html">Contact</a>
+                <a href="breakfast.html">Breakfast</a>
+                <a href="desserts.html">Desserts</a>
+                <a href="dinner.html">Dinner</a>
+                <a href="drinks.html">Drinks</a>
+                <a href="lunch.html">Lunch</a>
+                <a href="snacks.html">Snacks</a>
+              </div>
+          </div>
+          <script>
+            /* When the user clicks on the button, toggle between hiding and showing the dropdown content */
+            function myFunction() {
+              document.getElementById("myDropdown").classList.toggle("show");
+            }
+            // Close the dropdown if the user clicks outside of it
+            window.onclick = function(event) {
+              if (!event.target.matches('.dropbtn')) {
+                var dropdowns = document.getElementsByClassName("dropdown-content");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                  var openDropdown = dropdowns[i];
+                  if (openDropdown.classList.contains('show')) {
+                    openDropdown.classList.remove('show');
+                  }
+                }
+              }
+            }
+          </script>
+        </nav>
+      </div>
+    </header>
+
+<!--Jumbotron Banner------------------------------------------------------------------------------------------------------------------->            
+    <section class="jumbotron-poultry">
+        <div class="container">
+            <h2>Poultry Lunches</h2>
+        </div>
+    </section>
+
+<!--Menu Selection--------------------------------------------------------------------------------------------------------------------->
+    <section class="container">
+      <div class="row-item-recipe">
+        <div class="row justify-content-center">
+          <div class="recipe-titles">
+            <h2>Fried Chicken Tenders</h2>
+          </div>
+        </div>
+        <div class="row">            
+          <div class="col-sm-6">
+            <img border="10" src="https://github.com/JaredEngelken/Recipe-Website-Database/blob/master/images/20200409_105724.jpg?raw=true">
+          </div>        
+          <div class="col-sm-6">
+            <h3>Amount:</h3>
+            <ul>
+              <li>2 Servings</li>
+            </ul>
+            <h3>Time:</h3>
+            <ul>
+              <li>45 Minutes</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+              <h3>Ingredients:</h3>
+              <ul>
+                <li>10 - chicken breast strips</li>
+                <li>2 cups - bread crumbs</li>
+                <li>2 cups - flour</li>
+                <li>1 - large egg</li>
+                <li>1/2 cup - milk</li>
+                <li>2 cups - cooking oil</li>
+                <li>1 tbs - salt</li>
+                <li>1 tsp - black pepper</li>
+                <li>1 tsp - garlic powder</li>
+                <li>1 tsp - onion salt</li>
+                <li>1 tsp - paprika</li>
+                <li>1 tsp - cayene pepper</li>
+              </ul>
+          </div>
+          <div class="col-sm-6">
+            <h3>Instructions:</h3>
+            <ol>
+              <li>Cover the chicken tenders with the salt at least several hours before cooking.</li>
+              <li>Pour the breadcumbs into a large, shallow bowl.</li>
+              <li>In a separate bowl, whisk the egg together with the milk until slightly frothy.</li>
+              <li>Mix the flour and other dry spices together in a third, large, shallow bowl.</li>
+              <li>Pour the cooking oil into a deep frying pan so that it is at least an inch or so deep. Add more oil if necessary. Begin heating the oil over medium-high heat.</li>
+              <li>Turn on the oven and set it to 350°F.</li>
+              <li>While the oven and oil is heating, take the chicken strips and roll them in the flour so that they are liberally coated. Then dunk them individually in the egg wash before rolling the strips in the bread crumbs. Once they are completly covered, set them aside on a plate for several minutes.</li>
+              <li>By this point, the oil should be hot enough for fryig. Test it by dropping a small ball of flour in it. If the flour begins to sizzle immediately, then it's ready.</li>
+              <li>Gently lay the chicken strips in the oil slightly separated from one another being careful not to splash the hot oil.</li>
+              <li>Fry the strips for about 2 to 3 minutes on both sides or until they turn crispy and dark golden-brown on the outside.</li>
+              <li>When the chicken strips are done frying, remove them from the pan and transfer them to a baking sheet.</li>
+              <li>Bake the chicken strips in the oven for roughly 5 minutes or until their centers are at least 165°F and white.</li>
+              <li>The chicken strips should be hot and tender now. Remove them from the oven and serve immediately with your favorite BBQ sauce.</li>
+            </ul>
+            <h4>Optional:</h4>
+            <ul>
+              <li>See<a href="lunch-sides.html">sides</a>for a good chipotle honey BBQ sauce recipe.</li>
+              <li>Serve with ketchup and french fries.</li>
+              <li>Roll the chicken strips twice in the flour, one time before the egg wash and one time after, for a thicker breading.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!--<hr/>-->
+
+    </section>
+  </body>
+  
+<!--FOOTER----------------------------------------------------------------------------------------------------------------------------->
+  <footer class="container">
+    <div class="row">
+      <p class="col-sm-4">&copy; 2019 Jared Engelken
+      </p>
+      <div class="col-sm-2">
+        <a href="https://medium.com/">Medium</a>
+      </div>
+      <div class="col-sm-2">
+        <a href="https://github.com/">GitHub</a>
+      </div>
+      <div class="col-sm-2">
+        <a href="https://www.linkedin.com/">Linkdin</a>
+      </div>
+      <div class="col-sm-2">
+        <a href="https://tunein.com/podcasts/">Podcasts</a>
+      </div>
+    </div>
+  </footer>
+</html>
