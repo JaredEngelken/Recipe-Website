@@ -5,12 +5,13 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto:300,400,700' rel='stylesheet' type='text/css'>
-    <link href="breakfast-style.css" type="text/css" rel="stylesheet">
+    <link href="english-style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   
   <body>
-    <header class="container">
+<!--Header----------------------------------------------------------------------------------------------------------------------------->
+   <header class="container">
       <div class="row">
         <h1 class="col-sm-4">Jared's Recipes</h1>
         <nav class="col-sm-6">
@@ -23,7 +24,7 @@
         <nav class="col-sm-2">
           <!-- Home Button -->
           <form action="english.html">
-            <button class="btn"><i class="fa fa-home"></i>Home</button>
+              <button class="btn"><i class="fa fa-home"></i>Home</button>
           </form>
           <!-- Dropdown Button -->
           <div class="dropdown">
@@ -33,14 +34,10 @@
                 <a href="home.html">Language Selection</a>
                 <a href="english-calendar.html">Calendar</a>
                 <a href="english-list.html">Shopping List</a>
-                <a href="english-recipes.html">Recipes</a>
                 <a href="contact.html">Contact</a>
-                <a href="breakfast.html">Breakfast</a>
-                <a href="desserts.html">Desserts</a>
-                <a href="dinner.html">Dinner</a>
-                <a href="drinks.html">Drinks</a>
-                <a href="lunch.html">Lunch</a>
-                <a href="snacks.html">Snacks</a>
+                <a href="english-recipes.html">Recipes</a>
+                <a href="cooking.html">Cooking</a>
+                <a href="drinking.html">Drink Mixing</a>
               </div>
           </div>
           <script>
@@ -65,23 +62,39 @@
         </nav>
       </div>
     </header>
-
-<!--Jumbotron Banner------------------------------------------------------------------------------------------------------------------->            
-    <section class="jumbotron-pastries">
-        <div class="container">
-            <h2>Breakfast Pastries</h2>
-        </div>
+    
+<!--Jumbotron Banner------------------------------------------------------------------------------------------------------------------->
+    <section class="jumbotron-recipes">
+      <div class="container">
+        <h2>Baking</h2>
+      </div>
     </section>
 
 <!--Menu Selection--------------------------------------------------------------------------------------------------------------------->
     <section class="container">
-      <div class="row-item-recipe">
-        <div class="row justify-content-center">
-          <div class="recipe-titles">
-            <h2>Nothing added yet!</h2>
-          </div>
-        </div>
-      </div>
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="main-menu">
+                    <a href="baking-breakfast.html"><img border="10" src="https://github.com/JaredEngelken/Recipe-Website-Database/blob/master/images/breakfast_breakfast-classics_big-two-do-breakfast.jpg?raw=true">
+                    <h2>Breakfast</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="main-menu">
+                    <a href="baking-anytime.html"><img border="10" src="https://github.com/JaredEngelken/Recipe-Website-Database/blob/master/images/4e378d36-53d1-4869-b0df-fdb45845b89b-retina-large.jpg?raw=true">
+                    <h2>Anytime</h2>
+                    </a>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="main-menu">
+                    <a href="baking-desserts.html"><img border="10" src="https://github.com/JaredEngelken/Recipe-Website-Database/blob/master/images/1_F4981suuo-nURuQjyBIpyg.jpeg?raw=true">
+                    <h2>Desserts</h2>
+                    </a>
+                </div>
+            </div>
+        </div>  
     </section>
   </body>
   
